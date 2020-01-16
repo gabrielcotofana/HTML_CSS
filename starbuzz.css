@@ -19,7 +19,12 @@ h3 {
   color: #8B4513;
   font-family: sans-serif;
 }
-
+.tea {
+  color: green;
+}
+.coffee {
+  color: bisque;
+}
 span {
   color: saddlebrown;
 }
