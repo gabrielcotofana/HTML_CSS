@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+}
+
+#p1 {
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: justify;
+    border: 1px solid darkred;
+    /* border-style: solid;
+    border-width: 3px 20px;
+    border-color: darkslateblue; */
+    border-radius: 1em;
+    padding: 10px 20px;
+    margin: auto;
+    background-color: bisque;
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    color: darkred;
+    width: 70%;
+    /* height: 300px; */
+}
+p {
+    font-weight: normal;
+}
+#p1 span {
+    color: deeppink;
+}
+div {
+    background-color: ghostwhite;
+    border: 2px solid brown;
+    padding: 10px;
+}
+div div {
+    background-color: gray;
+    border: chartreuse 2px solid;
+    width: 80%;
+    
+}
