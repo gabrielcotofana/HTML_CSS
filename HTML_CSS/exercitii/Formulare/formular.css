@@ -1,0 +1,4 @@
+/* facem reset la pagina stabilind ca TOATE (*) elementele sa fie "borde-box" */
+* {
+    box-sizing: border-box;
+}

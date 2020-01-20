@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+
+}
+form {
+    background-color: lightgray;
+    width: 40%;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-family: sans-serif;
+}
+input, select {
+    display: block;
+    margin: 0.5em;
+}
+input[type=text] {
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding: 1em 2em;
+}
+input[type=submit] {
+    width: 90%;
+    background-color: lightgreen;
+    color: white;
+    font-size: 1.1em;
+    color: teal;
+    padding: 0.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: teal;
+    color: lightgreen;
+}
+select {
+    width: 90%;
+    color: white;
+    background-color: gray;
+    font-size: 1.1em;
+    text-align: center;
+
+}
