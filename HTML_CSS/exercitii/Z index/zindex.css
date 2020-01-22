@@ -1,0 +1,40 @@
+div:first-child {
+    background-color: darkgoldenrod;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    opacity: 0.5;
+    /* opacitatea se aplica pe TOT div-ul (toate elementele div-ului) 
+    ZERO  este trasparent complet ... UNU este opac*/
+}
+div:nth-child(2) {
+    background-color: darkred;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    /* z-index: -1; */
+    /* Elementele pozitionate (abosolute, relative, etc.)
+    sunt deasupra (by defaut) celor care nu au setat nici o pozitie, 
+    chiar daca acestea din urma au z-index setat*/
+}
+div:nth-child(3) {
+    background-color: rgba(20, 89, 179, 0.9);
+    /* rgba  - a (alfa) este opacitatea. 
+    Se poate controla opacitatea culorii fara a afecta tot div-ul */
+    color: white;
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+}
+div:nth-child(4) {
+    position: relative;
+    margin-top: 20%;
+
+}

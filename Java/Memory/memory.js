@@ -28,20 +28,21 @@ for(i = 0; i < images.length; i++) {
 }
 document.querySelector('ul').innerHTML = content;
 
-document.querySelectorAll('li')
-        .forEach(e => e.addEventListener('click', onclick));
+document.querySelectorAll('li').forEach(e => e.addEventListener('click', onClick));
 
 var active = [];
-function onclick(event) {
+function onClick(event) {
         if (active.length == 0) {
             active.push(event.target);
             event.target.querySelector('img').style.visibility = "visible";
-            event.target.removeEventListener('click', onclick);
+            event.target.removeEventListener('click', onClick);
         } else if(active.length == 1) {
             active.push(event.target);
             event.target.querySelector('img').style.visibility = "visible";
-            event.target.removeEventListener('click', onclick);
-            if (active[0].querySelector('img').src == active[1].querySelector('img').src) {
+            event.target.removeEventListener('click', onClick);
+            if (active[0].querySelector('img').src 
+                == active[1].querySelector('img').src) 
+            {
                 active = [];
             } else {
                 setTimeout(hide, 1000);
@@ -50,9 +51,25 @@ function onclick(event) {
 }
 
 function hide() {
-    active[0].querySelector('img').style.visibility = 'hide';
-    active[0].querySelector('img').style.visibility = 'hide';
-    active[0].addEventListener('click', onclick);
-    active[1].addEventListener('click', onclick);
+    active[0].querySelector('img').style.visibility = 'hidden'
+    active[1].querySelector('img').style.visibility = 'hidden'
+    active[0].addEventListener('click', onClick);
+    active[1].addEventListener('click', onClick);
     active = [];
 }
+
+
+
+
+// var start = millis();
+
+// mouseClicked = function() {
+//     // Restart the program whenever the user clicks the mouse
+//     Program.restart();
+// };
+// draw = function() {
+//     background(255, 255, 255);
+//     fill(0, 0, 0);
+//     textAlign(CENTER, CENTER);
+//     text("This program has been running for " + ((millis()-start)/1000).toFixed(2) + " seconds.", 200, 200);
+// };

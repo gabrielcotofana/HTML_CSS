@@ -57,3 +57,16 @@ daca il lasam pe div tranzitia se aplica la toate elementele div-ului */
     background-color: darkslateblue;
     transition: transform 2s, background-color 1s;
 }
+
+.trans2 {
+    color: cornsilk;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    padding: 30px;
+    transform: rotate(720deg);
+    transform-origin: top left;
+    transition: transform 3s;
+    transition-delay: 1s;
+}
