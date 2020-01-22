@@ -57,3 +57,19 @@ function hide() {
     active[1].addEventListener('click', onClick);
     active = [];
 }
+
+
+
+
+// var start = millis();
+
+// mouseClicked = function() {
+//     // Restart the program whenever the user clicks the mouse
+//     Program.restart();
+// };
+// draw = function() {
+//     background(255, 255, 255);
+//     fill(0, 0, 0);
+//     textAlign(CENTER, CENTER);
+//     text("This program has been running for " + ((millis()-start)/1000).toFixed(2) + " seconds.", 200, 200);
+// };
