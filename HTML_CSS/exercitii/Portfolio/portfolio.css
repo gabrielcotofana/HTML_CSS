@@ -28,4 +28,20 @@ nav li:first-child {
        vw: view width
     - se raporteaza la fereastra monitorului (nu mai tine cont de parinte)
     min 2:17 */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+}
+#container {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
