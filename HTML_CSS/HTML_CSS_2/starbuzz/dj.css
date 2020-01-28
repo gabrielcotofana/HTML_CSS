@@ -4,18 +4,21 @@
     margin: 0em;
 } */
 body {
-    background-color: teal;
+    background-color: rgb(50, 68, 68);
+    color: rgb(196, 189, 129);
+    font-family: sans-serif;
 }
 div {
     width: 70%;
     padding: 5em;
-    color: rgb(206, 187, 15);
+    color: rgb(196, 189, 129);
     font-family: sans-serif;
     /* background-color: olive; */
     margin: auto;
 }
 p {
     display: inline;
+    font-size: 1.2em;
 }
 #song {
     font-style: italic;
@@ -24,6 +27,6 @@ p {
     font-weight: bold;
 }
 h2 {
-    color: rgb(206, 187, 15);
-    font-size: 2em;
+    color: rgb(196, 189, 129);
+    font-size: 2.5em;
 }
