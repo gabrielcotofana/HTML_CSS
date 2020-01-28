@@ -5,10 +5,14 @@
 }
 body {
     font-family: sans-serif;
+<<<<<<< HEAD
     --my-color:rgb(230, 123, 58)
+=======
+    --my-color: rgb(230, 123, 58);
+>>>>>>> 27c8556ceebd6960c861f127a9c3a4adedb67e51
 }
 nav {
-    background-color: rgb(230, 123, 58);
+    background-color: var(--my-color);
     text-align: right;
 }
 li {
@@ -23,12 +27,11 @@ nav li:first-child {
     font-size: 1.2em;
 }
 #home {
-    background-image: url(headerback.jpg);
+    background-image: url("headerback.jpg");
     height: 100vh;
     /* vh: view height 
        vw: view width
-    - se raporteaza la fereastra monitorului (nu mai tine cont de parinte)
-    min 2:17 */
+    - se raporteaza la fereastra monitorului (nu mai tine cont de parinte) */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -45,4 +48,26 @@ nav li:first-child {
     right: 0;
     bottom: 0;
     margin: auto;
+    /* position: absolute cu margin: auto NU functioneaza 
+    daca nu-i dam dimensiunile (top, left, right, bottom) egale cu ZERO */
+}
+h1 {
+    color: var(--my-color);
+    font-size: 2.3em;
+
+}
+#home p {
+    font-size: 1.3em;
+    color: rgb(85, 85, 85);
+    font-family: "DIN Alternate";
+    width: 60%;
+    padding: 1em 0;
+}
+input[type="button"] {
+    background-color: var(--my-color);
+    color: white;
+    font-size: 1.4em;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.3em;
 }

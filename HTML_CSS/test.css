@@ -1,0 +1,14 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0em;
+} */
+body {
+    background-color: teal;
+}
+img {
+    border-radius: 10px;
+    border-color: white;
+    border-style: dashed;
+
+}
