@@ -5,6 +5,7 @@
 }
 body {
     font-family: sans-serif;
+    --my-color:rgb(230, 123, 58)
 }
 nav {
     background-color: rgb(230, 123, 58);
