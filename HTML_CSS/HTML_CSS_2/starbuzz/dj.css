@@ -11,7 +11,7 @@ div {
     padding: 5em;
     color: rgb(206, 187, 15);
     font-family: sans-serif;
-    background-color: olive;
+    /* background-color: olive; */
     margin: auto;
 }
 p {

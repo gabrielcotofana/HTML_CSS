@@ -5,11 +5,7 @@
 }
 body {
     font-family: sans-serif;
-<<<<<<< HEAD
     --my-color:rgb(230, 123, 58)
-=======
-    --my-color: rgb(230, 123, 58);
->>>>>>> 27c8556ceebd6960c861f127a9c3a4adedb67e51
 }
 nav {
     background-color: var(--my-color);
