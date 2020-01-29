@@ -1,0 +1,29 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0em;
+} */
+body {
+    background-color: teal;
+}
+div {
+    width: 70%;
+    padding: 5em;
+    color: rgb(206, 187, 15);
+    font-family: sans-serif;
+    background-color: olive;
+    margin: auto;
+}
+p {
+    display: inline;
+}
+#song {
+    font-style: italic;
+}
+#artist {
+    font-weight: bold;
+}
+h2 {
+    color: rgb(206, 187, 15);
+    font-size: 2em;
+}
