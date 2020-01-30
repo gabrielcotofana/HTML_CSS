@@ -42,8 +42,13 @@ article {
 h1 {
     font-size: 2em;
     color: burlywood;
+    padding-bottom: 3em;
 }
-
+p {
+    color: burlywood;
+    padding: 2em;
+    font-weight: lighter;
+}
 
 
 

@@ -20,7 +20,7 @@ div div:first-child {
 div div:nth-child(2) {
     background-color: darkred;
     position: fixed;
-    top: 40%;
+    top: 10%;
     left: 50%;
 }
 div div:nth-child(3){
@@ -30,14 +30,15 @@ div div:nth-child(3){
     left: 40%;
 }
 div div:last-child {
-    background-color: chocolate;
+    background-color: rgb(30, 123, 210);
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
 }
 .container {
     background-color: rgb(240, 212, 140);
     width: 300px;
+    height: 500px;
     position: relative;
     left: 30%;
 }
