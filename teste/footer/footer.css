@@ -1,15 +1,32 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */
 html, body {
     height: 100%;
     margin: 0;
   }
-  .wrapper {
+  .content {
+    padding: 20px;
     min-height: 100%;
-  
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
+    margin: 0 auto -50px;
   }
   .footer,
   .push {
     height: 50px;
+  }
+  .footer {
+      background-color: royalblue;
+      color: seashell;
+      text-align: right;
+      padding-right: 2em;
+  }
+  .header {
+      position: absolute;
+      width: 100%;
+      background-color: salmon;
+      height: 3em;
+      text-align: right;
+      padding-right: 2em;
   }
