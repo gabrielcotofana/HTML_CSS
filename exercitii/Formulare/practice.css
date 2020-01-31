@@ -5,6 +5,7 @@
 form {
     background-color: lightgray;
     width: 40%;
+    margin: auto;
     border-radius: 10px;
     padding: 0.5em;
     font-family: sans-serif;
@@ -22,7 +23,6 @@ input[type=text] {
 input[type=submit] {
     width: 90%;
     background-color: lightgreen;
-    color: white;
     font-size: 1.1em;
     color: teal;
     padding: 0.5em;
@@ -39,5 +39,4 @@ select {
     background-color: gray;
     font-size: 1.1em;
     text-align: center;
-
 }
