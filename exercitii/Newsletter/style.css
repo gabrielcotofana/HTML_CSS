@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #E6E6E6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: tan;
+}
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+/* /////////////////////////////////////////////// */
+
+.logo {
+    padding: 1em;
+    vertical-align: top;
+}
+.logo a {
+    height: 3em;
+}
+.logo p {
+    display: inline;
+    float: right;
+}
+.logo :first-child {
+    color: rgb(217, 215, 197);
+    font-size: 2em;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.logo :nth-child(2) {
+    font-size: 1.3em;
+    margin-top: 1em;
+    color: #4A5A25;
+    text-align: right;
+
+}
+
+/* /////////////////////////////////////////////// */
+
+nav {
+    background-color: #4A5A25;
+    padding: 0.7em;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    padding: 0.3em 0.5em;
+}
+a {
+    text-decoration: none;
+    color: #B8C341;
+}
+a:hover {
+    color: white;
+}
+
+/* /////////////////////////////////////////////// */
+
+.pompe {
+    text-align: center;
+    margin-top: 1em;
+
+}
+.pompe li{
+    display: inline;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pompe img {
+    height: 3em;
+}
+
+/* /////////////////////////////////////////////// */
+
+.banner {
+    width: 100%;
+    /* background-color: #4A5A25; */
+}
+.banner img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
