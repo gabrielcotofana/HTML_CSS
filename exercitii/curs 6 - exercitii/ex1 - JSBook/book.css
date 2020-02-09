@@ -49,7 +49,8 @@ input[type="button"] {
     font-size: 1em;
     padding: 0.3em 2em;
     border-radius: 0.8em;
-    color: white;;
+    color: white;
+    margin-top: 2em;
 }
 footer {
     background-color: #333333;
