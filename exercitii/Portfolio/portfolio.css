@@ -67,3 +67,12 @@ input[type="button"] {
     border-radius: 5px;
     padding: 0.3em;
 }
+
+#about {
+    height: 100vh;
+    text-align: center;
+
+}
+img {
+    border-radius: 50%;
+}

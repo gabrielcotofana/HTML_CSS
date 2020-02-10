@@ -69,6 +69,10 @@ input[class="button"] {
     padding: 0.6em;
     cursor: pointer;
 }
+
+
+
+
 input.button:hover {
     color: rgb(228, 122, 58);
     background: #000;
