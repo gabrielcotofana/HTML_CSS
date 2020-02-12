@@ -73,6 +73,24 @@ input[type="button"] {
     text-align: center;
 
 }
-img {
+#aboutme {
+
+}
+#foto {
+    display: inline-block;
+}
+#foto img {
     border-radius: 50%;
+}
+#vl {
+    border-left: 4px solid rgb(64, 124, 134);
+    height: 400px;
+    display: inline-block;
+    margin: 0px 20px 0px;
+}
+#descriere {
+    display: inline-block;
+    width: 40%;
+    vertical-align: 90px;
+    margin-top: 30px;
 }
