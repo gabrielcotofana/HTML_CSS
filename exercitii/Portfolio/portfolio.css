@@ -83,7 +83,7 @@ input[type="button"] {
     border-radius: 50%;
 }
 #vl {
-    border-left: 4px solid rgb(64, 124, 134);
+    border-left: 4px solid seagreen;
     height: 400px;
     display: inline-block;
     margin: 0px 20px 0px;
