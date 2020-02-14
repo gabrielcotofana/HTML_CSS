@@ -43,7 +43,7 @@ nav {
     color: #009FE3;
     background-color: #1E4F63;
     padding: 0.7em;
-    text-align: center;
+    text-align: center;border-radius: 10px;
 }
 nav li {
     display: inline-block;
@@ -93,19 +93,34 @@ nav a:hover {
 /* /////////////////////////////////////////////// */
 
 table {
-    border: 2px solid #B8C341;
+    width: 960px;
+    border: 2px solid #009FE3;
     border-radius: 10px;
     margin: 2em 0;
+    padding: 10px;
+    color: #1E4F63;
+}
+table img {
+    width: 210px;
+    padding: 10px;
+
+}
+table td {
+    text-align: center;
+    /* color: #1E4F63; */
+}
+#vechi {
+    text-decoration: line-through;
+}
+#nou {
+    text-align: center;
+    text-transform: uppercase;
+    color: crimson;
+    font-weight: 900;
+    font-size: larger;
 }
 
 /* /////////////////////////////////////////////// */
-
-/* #footer {
-    width: 700px;
-    border: 2px solid #B8C341;
-
-} */
-
 
 
 .social {
@@ -113,7 +128,7 @@ table {
     padding: 0.5em;
 }
 .social a{
-    color: #4A5A25;
+    color: #1E4F63;
     font-size: 2em;
 }
 .social a i {
