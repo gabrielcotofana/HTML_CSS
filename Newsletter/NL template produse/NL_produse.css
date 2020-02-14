@@ -122,6 +122,12 @@ table td {
 
 /* /////////////////////////////////////////////// */
 
+#simboluri {
+    width: 960px;
+    color: antiquewhite;
+}
+
+/* /////////////////////////////////////////////// */
 
 .social {
     text-align: center;
@@ -143,7 +149,7 @@ hr {
 }
 .dezabonare {
     font-size: 12px;
-    color: black;
+    color: #1E4F63;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
