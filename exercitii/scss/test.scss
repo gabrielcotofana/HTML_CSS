@@ -1,0 +1,23 @@
+@import 'var';
+
+nav {
+    ul {
+        background-color: $base_color;
+        li {
+            display: inline-block;
+        }
+        a {
+            text-decoration: none;
+            padding: $default_padding + 2;
+            color: $secondary_color;
+        }
+    }
+}
+
+button {
+    background-color: $base_color;
+}
+
+h1 {
+    color: $base_color;
+}

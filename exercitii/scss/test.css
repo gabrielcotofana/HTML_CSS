@@ -1,0 +1,14 @@
+nav ul {
+  background-color: green; }
+  nav ul li {
+    display: inline-block; }
+  nav ul a {
+    text-decoration: none;
+    padding: 12px;
+    color: yellow; }
+
+button {
+  background-color: green; }
+
+h1 {
+  color: green; }
