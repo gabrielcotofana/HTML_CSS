@@ -1,0 +1,30 @@
+h1::before {
+    content: "H1.";
+}
+h1::after {
+    content: ".";
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+    font-size: 1.5em;
+    font-family: Futura;
+}
+
+a:hover::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: crimson;
+    width: 0;
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow {
+    to {
+        width: 4em;
+    }
+}
