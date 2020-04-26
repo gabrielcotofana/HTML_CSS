@@ -1,7 +1,7 @@
 nav {
     background-color: #333;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 div:first-child {

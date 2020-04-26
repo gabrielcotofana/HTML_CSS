@@ -7,7 +7,7 @@ div {
   height: 13px;
   border-radius: 0px;
   background-color: #aaa;
-}
+} 
 ::-webkit-scrollbar-button:hover {
   background-color: #aaa;
 }
